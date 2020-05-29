@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Generator: Adobe Illustrator 18.1.1, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   version="1.1"
+   id="Layer_1"
+   x="0px"
+   y="0px"
+   viewBox="83 -108.9 364.00001 364.00001"
+   enable-background="new 83 -108.9 266.9 266.9"
+   xml:space="preserve"
+   sodipodi:docname="ic_launcher_facebook.svg"
+   width="364"
+   height="364"
+   inkscape:version="0.92.3 (2405546, 2018-03-11)"><metadata
+   id="metadata6768"><rdf:RDF><cc:Work
+       rdf:about=""><dc:format>image/svg+xml</dc:format><dc:type
+         rdf:resource="http://purl.org/dc/dcmitype/StillImage" /><dc:title></dc:title></cc:Work></rdf:RDF></metadata><defs
+   id="defs6766" /><sodipodi:namedview
+   pagecolor="#ffffff"
+   bordercolor="#666666"
+   borderopacity="1"
+   objecttolerance="10"
+   gridtolerance="10"
+   guidetolerance="10"
+   inkscape:pageopacity="0"
+   inkscape:pageshadow="2"
+   inkscape:window-width="1920"
+   inkscape:window-height="1016"
+   id="namedview6764"
+   showgrid="false"
+   inkscape:zoom="1.4558648"
+   inkscape:cx="24.09171"
+   inkscape:cy="126.37063"
+   inkscape:window-x="0"
+   inkscape:window-y="27"
+   inkscape:window-maximized="1"
+   inkscape:current-layer="layer6" />
+
+<g
+   inkscape:groupmode="layer"
+   id="layer5"
+   inkscape:label="bottom"
+   style="display:inline"
+   transform="translate(0,97.099611)"><path
+     style="display:inline;opacity:1;fill:#ffffff;fill-opacity:1;stroke:#000000;stroke-width:0.20532791;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+     d="M 266.0527,-203.03352 A 180.89871,178.9207 0 0 0 85.154692,-24.129227 180.89871,178.9207 0 0 0 266.0527,154.80324 180.89871,178.9207 0 0 0 446.95072,-24.129227 180.89871,178.9207 0 0 0 266.0527,-203.03352 Z"
+     id="path1059"
+     inkscape:connector-curvature="0" /></g><g
+   inkscape:groupmode="layer"
+   id="layer6"
+   inkscape:label="top"
+   transform="translate(0,97.099611)"><path
+     style="fill:#3c5a99"
+     d="m 379.86826,-153.06827 h -229.3 c -7.9,0 -14.2,6.4 -14.2,14.2 V 90.431736 c 0,7.899996 6.4,14.199994 14.2,14.199994 h 123.4 V 4.8317361 h -33.6 V -34.068264 h 33.6 v -28.7 c 0,-33.3 20.3,-51.400006 50,-51.400006 14.2,0 26.5,1.1 30,1.5 v 34.800006 h -20.6 c -16.1,0 -19.3,7.7 -19.3,18.9 v 24.8 h 38.5 l -5,38.9000001 h -33.5 V 104.53173 h 65.7 c 7.9,0 14.2,-6.399998 14.2,-14.199994 V -138.86827 c 0.1,-7.8 -6.3,-14.2 -14.1,-14.2 z"
+     id="path6761"
+     inkscape:connector-curvature="0" /></g></svg>
