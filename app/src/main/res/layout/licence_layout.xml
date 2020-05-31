@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
         xmlns:tools="http://schemas.android.com/tools"
         android:orientation="vertical"
         android:layout_width="match_parent"
@@ -21,10 +22,10 @@
             android:orientation="horizontal"
             android:padding="@dimen/licence_layout_padding"
             tools:ignore="UseCompoundDrawables">
-        <ImageView
+        <androidx.appcompat.widget.AppCompatImageView
                 android:layout_width="@dimen/logo_size_in_licence_view"
                 android:layout_height="@dimen/logo_size_in_licence_view"
-                android:background="@drawable/ic_share_it_all"
+                app:srcCompat="@drawable/ic_share_it_all"
                 android:contentDescription="@string/customized_application_logo"/>
         <TextView
                 android:layout_width="match_parent"
@@ -41,10 +42,10 @@
             android:orientation="horizontal"
             android:padding="@dimen/licence_layout_padding"
             tools:ignore="UseCompoundDrawables">
-        <ImageView
+        <androidx.appcompat.widget.AppCompatImageView
                 android:layout_width="@dimen/logo_size_in_licence_view"
                 android:layout_height="@dimen/logo_size_in_licence_view"
-                android:background="@drawable/ic_launcher_facebook"
+                app:srcCompat="@drawable/ic_launcher_facebook"
                 android:contentDescription="@string/customized_facebook_logo" />
         <TextView
                 android:layout_width="match_parent"
@@ -61,10 +62,10 @@
             android:orientation="horizontal"
             android:padding="@dimen/licence_layout_padding"
             tools:ignore="UseCompoundDrawables">
-        <ImageView
+        <androidx.appcompat.widget.AppCompatImageView
                 android:layout_width="@dimen/logo_size_in_licence_view"
                 android:layout_height="@dimen/logo_size_in_licence_view"
-                android:background="@drawable/ic_launcher_twitter"
+                app:srcCompat="@drawable/ic_launcher_twitter"
                 android:contentDescription="@string/customized_twitter_logo" />
         <TextView
                 android:layout_width="match_parent"
@@ -80,10 +81,10 @@
             android:layout_height="wrap_content"
             android:orientation="horizontal"
             tools:ignore="UseCompoundDrawables">
-        <ImageView
+        <androidx.appcompat.widget.AppCompatImageView
                 android:layout_width="@dimen/logo_size_in_licence_view"
                 android:layout_height="@dimen/logo_size_in_licence_view"
-                android:background="@drawable/ic_launcher_reddit"
+                app:srcCompat="@drawable/ic_launcher_reddit"
                 android:contentDescription="@string/customized_reddit_logo" />
         <TextView
                 android:layout_width="match_parent"
@@ -101,10 +102,10 @@
             android:orientation="horizontal"
             android:padding="@dimen/licence_layout_padding"
             tools:ignore="UseCompoundDrawables">
-        <ImageView
+        <androidx.appcompat.widget.AppCompatImageView
                 android:layout_width="@dimen/logo_size_in_licence_view"
                 android:layout_height="@dimen/logo_size_in_licence_view"
-                android:background="@drawable/ic_launcher_linkedin"
+                app:srcCompat="@drawable/ic_launcher_linkedin"
                 android:contentDescription="@string/customized_linkedin_logo" />
         <TextView
                 android:layout_width="match_parent"
@@ -121,10 +122,10 @@
             android:orientation="horizontal"
             android:padding="@dimen/licence_layout_padding"
             tools:ignore="UseCompoundDrawables">
-        <ImageView
+        <androidx.appcompat.widget.AppCompatImageView
                 android:layout_width="@dimen/logo_size_in_licence_view"
                 android:layout_height="@dimen/logo_size_in_licence_view"
-                android:background="@drawable/ic_launcher_lilo"
+                app:srcCompat="@drawable/ic_launcher_lilo"
                 android:contentDescription="@string/customized_lilo_logo" />
         <TextView
                 android:layout_width="match_parent"
@@ -141,10 +142,10 @@
             android:orientation="horizontal"
             android:padding="@dimen/licence_layout_padding"
             tools:ignore="UseCompoundDrawables">
-        <ImageView
+        <androidx.appcompat.widget.AppCompatImageView
                 android:layout_width="@dimen/logo_size_in_licence_view"
                 android:layout_height="@dimen/logo_size_in_licence_view"
-                android:background="@drawable/ic_launcher_ecosia"
+                app:srcCompat="@drawable/ic_launcher_ecosia"
                 android:contentDescription="@string/customized_ecosia_logo" />
         <TextView
                 android:layout_width="match_parent"
@@ -161,10 +162,10 @@
             android:orientation="horizontal"
             android:padding="@dimen/licence_layout_padding"
             tools:ignore="UseCompoundDrawables">
-        <ImageView
+        <androidx.appcompat.widget.AppCompatImageView
                 android:layout_width="@dimen/logo_size_in_licence_view"
                 android:layout_height="@dimen/logo_size_in_licence_view"
-                android:background="@drawable/ic_launcher_amazon"
+                app:srcCompat="@drawable/ic_launcher_amazon"
                 android:contentDescription="@string/customized_amazon_logo" />
         <TextView
                 android:layout_width="match_parent"
