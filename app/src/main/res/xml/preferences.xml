@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <PreferenceCategory app:title="@string/choose_your_shortcut">
+        <SwitchPreferenceCompat
+                app:key="FacebookActivity"
+                app:title="@string/facebook_app_name"
+                app:icon="@drawable/ic_launcher_facebook"
+                app:enabled="true"/>
+
+        <SwitchPreferenceCompat
+                app:key="TwitterActivity"
+                app:title="@string/twitter_app_name"
+                app:icon="@drawable/ic_launcher_twitter"
+                app:enabled="true"/>
+
+        <!-- disabled as not working on mobiles
+        <SwitchPreferenceCompat
+                app:key="RedditActivity"
+                app:title="@string/reddit_app_name"
+                app:icon="@drawable/ic_launcher_reddit"
+                app:enabled="true"/> -->
+
+        <SwitchPreferenceCompat
+                app:key="LinkedInActivity"
+                app:title="@string/linkedin_app_name"
+                app:icon="@drawable/ic_launcher_linkedin"
+                app:defaultValue="false"/>
+
+        <SwitchPreferenceCompat
+                app:key="LiloActivity"
+                app:title="@string/lilo_app_name"
+                app:icon="@drawable/ic_launcher_lilo"
+                app:defaultValue="false"/>
+
+        <SwitchPreferenceCompat
+                app:key="EcosiaActivity"
+                app:title="@string/ecosia_app_name"
+                app:icon="@drawable/ic_launcher_ecosia"
+                app:defaultValue="false"/>
+
+        <SwitchPreferenceCompat
+                app:key="AmazonActivity"
+                app:title="@string/amazon_app_name"
+                app:icon="@drawable/ic_launcher_amazon"
+                app:defaultValue="false"/>
+
+        <!-- IMPROVEMENT: Add lines here for new shortcut -->
+
+    </PreferenceCategory>
+
+    <PreferenceCategory app:title="@string/help">
+        <Preference
+                app:key="feedback"
+                app:title="@string/report_info"/>
+
+        <Preference
+                app:key="share"
+                app:title="@string/app_share"/>
+
+        <Preference
+                app:key="licences"
+                app:title="@string/app_licences"/>
+    </PreferenceCategory>
+
+</PreferenceScreen>

@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Ecran de configuration -->
+    <string name="report_info">Envoyer des suggestions</string>
+    <string name="text_send_mail">Bonjour,</string>
+    <string name="app_share">Partagez</string>
+    <string name="choose_your_shortcut">Activer ou désactiver un lien de partage</string>>
+    <string name="app_licences">Licences / Open Sources</string>
+    <string name="help">Aide</string>
+
+    <!-- licence screen -->
+    <string name="adapted_artwork">Images dérivés</string>
+
+    <string name="customized_twitter_logo">Logo Twitter</string>
+    <string name="customized_facebook_logo">Logo Facebook</string>
+    <string name="customized_application_logo">Logo de l\'application Web share</string>
+    <string name="customized_reddit_logo">Logo Reddit</string>
+    <string name="customized_linkedin_logo">Logo LinkedIn</string>
+    <string name="customized_lilo_logo">Logo Lilo</string>
+    <string name="customized_ecosia_logo">Logo Ecosia</string>
+    <string name="customized_amazon_logo">Logo Amazon</string>
+
+    <!-- messgaes d'erreur -->
+    <string name="error_facebook_shortcut_invalid">Erreur: Facebook ne supporte que les liens web</string>
+    <string name="error_no_browser_installed">Erreur: Aucun Navigateur installé, installez un navigateur depuis le store</string>
+    <string name="error_unknown">Error: Inconnue</string>
+
+
+    <string name="amazon_url">www.amazon.fr</string>
+
+</resources> 

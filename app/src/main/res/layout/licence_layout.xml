@@ -1,0 +1,177 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+    <!-- header  -->
+    <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:autoLink="web"
+            android:gravity="center_horizontal|center_vertical"
+            android:text="@string/adapted_artwork"
+            android:textAppearance="@style/TextAppearance.AppCompat.Large"/>
+
+    <!-- Main Logo -->
+    <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:padding="@dimen/licence_layout_padding"
+            tools:ignore="UseCompoundDrawables">
+        <ImageView
+                android:layout_width="@dimen/logo_size_in_licence_view"
+                android:layout_height="@dimen/logo_size_in_licence_view"
+                android:background="@drawable/ic_share_it_all"
+                android:contentDescription="@string/customized_application_logo"/>
+        <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center_horizontal|center_vertical"
+                android:autoLink="web"
+                android:text="CoreUI \n CC-BY-4.0 \n https://commons.wikimedia.org/wiki/File:Share-alt_(CoreUI_Icons_v1.0.0).svg"/>
+    </LinearLayout>
+
+    <!-- Facebook Logo -->
+    <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:padding="@dimen/licence_layout_padding"
+            tools:ignore="UseCompoundDrawables">
+        <ImageView
+                android:layout_width="@dimen/logo_size_in_licence_view"
+                android:layout_height="@dimen/logo_size_in_licence_view"
+                android:background="@drawable/ic_launcher_facebook"
+                android:contentDescription="@string/customized_facebook_logo" />
+        <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center_horizontal|center_vertical"
+                android:autoLink="web"
+                android:text="Alexo88 \n CC-BY-SA-4.0 \n https://commons.wikimedia.org/wiki/File:Facebook_new.svg"/>
+    </LinearLayout>
+
+    <!-- Twitter Logo -->
+    <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:padding="@dimen/licence_layout_padding"
+            tools:ignore="UseCompoundDrawables">
+        <ImageView
+                android:layout_width="@dimen/logo_size_in_licence_view"
+                android:layout_height="@dimen/logo_size_in_licence_view"
+                android:background="@drawable/ic_launcher_twitter"
+                android:contentDescription="@string/customized_twitter_logo" />
+        <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center_horizontal|center_vertical"
+                android:autoLink="web"
+                android:text="Core-UI \n CC-BY 4.0 \n https://commons.wikimedia.org/wiki/File:Cib-twitter_(CoreUI_Icons_v1.0.0).svg"/>
+    </LinearLayout>
+
+    <!-- Reddit Logo
+    <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            tools:ignore="UseCompoundDrawables">
+        <ImageView
+                android:layout_width="@dimen/logo_size_in_licence_view"
+                android:layout_height="@dimen/logo_size_in_licence_view"
+                android:background="@drawable/ic_launcher_reddit"
+                android:contentDescription="@string/customized_reddit_logo" />
+        <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center_horizontal|center_vertical"
+                android:autoLink="web"
+                android:text="ChangHoon Baek\n https://thenounproject.com/changhoon.baek.50/ /n CC BY (https://creativecommons.org/licenses/by/4.0)"/>
+             https://commons.wikimedia.org/wiki/File:Noun_Robot_212089_4380c9.svg
+    </LinearLayout>
+    -->
+
+    <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:padding="@dimen/licence_layout_padding"
+            tools:ignore="UseCompoundDrawables">
+        <ImageView
+                android:layout_width="@dimen/logo_size_in_licence_view"
+                android:layout_height="@dimen/logo_size_in_licence_view"
+                android:background="@drawable/ic_launcher_linkedin"
+                android:contentDescription="@string/customized_linkedin_logo" />
+        <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center_horizontal|center_vertical"
+                android:autoLink="web"
+                android:text="The Pink Group \n Public domain \n https://commons.wikimedia.org/wiki/File:Linkedin_circle.svg"/>
+    </LinearLayout>
+
+    <!-- lilo logo -->
+    <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:padding="@dimen/licence_layout_padding"
+            tools:ignore="UseCompoundDrawables">
+        <ImageView
+                android:layout_width="@dimen/logo_size_in_licence_view"
+                android:layout_height="@dimen/logo_size_in_licence_view"
+                android:background="@drawable/ic_launcher_lilo"
+                android:contentDescription="@string/customized_lilo_logo" />
+        <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center_horizontal|center_vertical"
+                android:autoLink="web"
+                android:text="Andreuvv \n CC BY-SA 4.0 \n https://commons.wikimedia.org/wiki/File:Pokémon_Water_Type_Icon.svg"/>
+    </LinearLayout>
+
+    <!-- Ecosia logo -->
+    <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:padding="@dimen/licence_layout_padding"
+            tools:ignore="UseCompoundDrawables">
+        <ImageView
+                android:layout_width="@dimen/logo_size_in_licence_view"
+                android:layout_height="@dimen/logo_size_in_licence_view"
+                android:background="@drawable/ic_launcher_ecosia"
+                android:contentDescription="@string/customized_ecosia_logo" />
+        <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center_horizontal|center_vertical"
+                android:autoLink="web"
+                android:text="Mannivu \n CC0 \n https://commons.wikimedia.org/wiki/File:Ecosia-like_logo.svg"/>
+    </LinearLayout>
+
+    <!-- Amazon logo -->
+    <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:padding="@dimen/licence_layout_padding"
+            tools:ignore="UseCompoundDrawables">
+        <ImageView
+                android:layout_width="@dimen/logo_size_in_licence_view"
+                android:layout_height="@dimen/logo_size_in_licence_view"
+                android:background="@drawable/ic_launcher_amazon"
+                android:contentDescription="@string/customized_amazon_logo" />
+        <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center_horizontal|center_vertical"
+                android:autoLink="web"
+                android:text="CoreUI \n CC BY 4.0 \n https://commons.wikimedia.org/wiki/File:Cib-amazon_(CoreUI_Icons_v1.0.0).svg"/>
+    </LinearLayout>
+
+</LinearLayout>

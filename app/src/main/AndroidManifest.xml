@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+          xmlns:tools="http://schemas.android.com/tools"
+          package="com.boub.share.onfb">
+
+    <application
+            android:allowBackup="true"
+            android:icon="@drawable/ic_share_it_all"
+            android:roundIcon="@drawable/ic_share_it_all"
+            android:label="@string/app_name">
+
+        <!-- Configuration activity -->
+        <activity android:name=".MainActivity"
+                  android:label="@string/app_name"
+                  android:theme="@style/Theme.AppCompat">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+                <category android:name="android.intent.category.LAUNCHER"/>
+            </intent-filter>
+        </activity>
+
+        <!-- licence -->
+        <activity android:name=".LicenceActivity"/>
+
+        <!-- Here begins share activities-->
+        <!-- Twitter -->
+        <activity android:name=".TwitterActivity"
+                  android:label="@string/twitter_app_name"
+                  android:icon="@drawable/ic_launcher_twitter"
+                  android:theme="@android:style/Theme.Translucent.NoTitleBar.Fullscreen">
+            <intent-filter>
+                <action android:name="android.intent.action.SEND"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+                <data android:mimeType="text/*"/>
+            </intent-filter>
+        </activity>
+
+        <!-- Facebook -->
+        <activity android:name=".FacebookActivity"
+                android:label="@string/facebook_app_name"
+                android:icon="@drawable/ic_launcher_facebook"
+                android:theme="@android:style/Theme.Translucent.NoTitleBar.Fullscreen">
+            <intent-filter>
+                <action android:name="android.intent.action.SEND"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+                <data android:mimeType="text/*"/>
+            </intent-filter>
+        </activity>
+
+        <!-- disabled as not working on mobile
+        <activity android:name=".RedditActivity"
+                android:label="@string/reddit_app_name"
+                android:icon="@drawable/ic_launcher_reddit"
+                android:theme="@android:style/Theme.Translucent.NoTitleBar.Fullscreen">
+            <intent-filter>
+                <action android:name="android.intent.action.SEND"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+                <data android:mimeType="text/*"/>
+            </intent-filter>
+        </activity> -->
+
+        <!-- LinkedIn -->
+        <activity android:name=".LinkedInActivity"
+                android:label="@string/linkedin_app_name"
+                android:icon="@drawable/ic_launcher_linkedin"
+                android:theme="@android:style/Theme.Translucent.NoTitleBar.Fullscreen"
+                android:enabled="false">
+            <intent-filter>
+                <action android:name="android.intent.action.SEND"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+                <data android:mimeType="text/*"/>
+            </intent-filter>
+        </activity>
+
+        <!-- Lilo -->
+        <activity android:name=".LiloActivity"
+                android:label="@string/lilo_app_name"
+                android:icon="@drawable/ic_launcher_lilo"
+                android:theme="@android:style/Theme.Translucent.NoTitleBar.Fullscreen"
+                android:enabled="false">
+            <intent-filter>
+                <action android:name="android.intent.action.SEND"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+                <data android:mimeType="text/*"/>
+            </intent-filter>
+        </activity>
+
+        <!--Ecosia -->
+        <activity android:name=".EcosiaActivity"
+                android:label="@string/ecosia_app_name"
+                android:icon="@drawable/ic_launcher_ecosia"
+                android:theme="@android:style/Theme.Translucent.NoTitleBar.Fullscreen"
+                android:enabled="false">
+            <intent-filter>
+                <action android:name="android.intent.action.SEND"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+                <data android:mimeType="text/*"/>
+            </intent-filter>
+        </activity>
+
+        <!--Amazon -->
+        <activity android:name=".AmazonActivity"
+                android:label="@string/amazon_app_name"
+                android:icon="@drawable/ic_launcher_amazon"
+                android:theme="@android:style/Theme.Translucent.NoTitleBar.Fullscreen"
+                android:enabled="false">
+            <intent-filter>
+                <action android:name="android.intent.action.SEND"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+                <data android:mimeType="text/*"/>
+            </intent-filter>
+        </activity>
+
+        <!-- IMPROVEMENT: Add lines here for new share activity -->
+
+    </application>
+
+</manifest>

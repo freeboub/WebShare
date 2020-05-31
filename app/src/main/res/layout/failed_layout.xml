@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/grey_transparent"
+        android:orientation="vertical"
+        android:padding="50dp">
+
+    <ImageView
+            android:layout_width="137dp"
+            android:layout_height="137dp"
+            android:layout_gravity="center"
+            android:background="@drawable/ic_share_it_all"
+            android:contentDescription=""
+            android:padding="50dp" />
+
+    <TextView
+            android:id="@+id/error_message"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:drawablePadding="5dp"
+            android:gravity="center_horizontal|center_vertical"
+            android:onClick="finish"
+            android:text="@string/error_facebook_shortcut_invalid"
+            android:textColor="@android:color/white"
+            android:textSize="36sp" />
+</LinearLayout>

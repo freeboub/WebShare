@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- App name -->
+    <string translatable="false" name="app_name">Share on Web</string>
+    <string translatable="false" name="twitter_app_name">Twitter Web</string>
+    <string translatable="false" name="facebook_app_name">Facebook Web</string>
+    <string translatable="false" name="reddit_app_name">Reddit Web</string>
+    <string translatable="false" name="linkedin_app_name">LinkedIn Web</string>
+    <string translatable="false" name="lilo_app_name">Lilo Web Search</string>
+    <string translatable="false" name="ecosia_app_name">Ecosia Web Search</string>
+    <string translatable="false" name="amazon_app_name">Amazon Web Search</string>
+    <!-- IMPROVEMENT: Add lines here for new logo -->
+
+    <!-- main screen -->
+    <string name="str_mail_to" translatable="false">freeboub@gmail.com</string>
+    <string name="mail_title" translatable="false">[WebShare] : feedback</string>
+
+    <!-- configuration activty translations -->
+    <string name="report_info">Send suggestions</string>
+    <string name="text_send_mail">Hello,</string>
+    <string name="app_share">Share</string>
+    <string name="choose_your_shortcut">Enable or disable share shortcut</string>>
+    <string name="app_licences">Licences / Open Sources</string>
+
+    <!-- Licence screen -->
+    <string name="help">help</string>
+    <string name="adapted_artwork">adapted artwork</string>
+
+    <string name="customized_application_logo">Web Share logo</string>
+    <string name="customized_twitter_logo">Twitter logo</string>
+    <string name="customized_facebook_logo">Facebook logo</string>
+    <string name="customized_reddit_logo">Reddit logo</string>
+    <string name="customized_linkedin_logo">LinkedIn logo</string>
+    <string name="customized_lilo_logo">Lilo logo</string>
+    <string name="customized_ecosia_logo">Ecosia logo</string>
+    <string name="customized_amazon_logo">Amazon logo</string>
+
+    <!-- IMPROVEMENT: Add lines here for new logo -->
+
+    <!-- errors messages -->
+    <string name="error_no_browser_installed">Error: No browser installed, please install a web browser from store</string>
+    <string name="error_facebook_shortcut_invalid">Error: Facebook only support web link</string>
+    <string name="error_unknown">Error: Unknown</string>
+
+    <!-- Misc -->
+    <string name="amazon_url">www.amazon.com</string>
+
+</resources>
