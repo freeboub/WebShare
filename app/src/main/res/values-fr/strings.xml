@@ -8,6 +8,10 @@
     <string name="app_licences">Licences / Open Sources</string>
     <string name="help">Aide</string>
 
+    <string name="preference_title_social_network">Réseaux sociaux</string>
+    <string name="preference_title_search_engine">Moteurs de recherche</string>
+    <string name="preference_title_other">Autres</string>
+
     <!-- licence screen -->
     <string name="adapted_artwork">Images dérivés</string>
 
@@ -19,13 +23,15 @@
     <string name="customized_lilo_logo">Logo Lilo</string>
     <string name="customized_ecosia_logo">Logo Ecosia</string>
     <string name="customized_amazon_logo">Logo Amazon</string>
+    <string name="customized_google_logo">Logo Google</string>
 
-    <!-- messgaes d'erreur -->
+    <!-- messages d'erreur -->
     <string name="error_facebook_shortcut_invalid">Erreur: Facebook ne supporte que les liens web</string>
     <string name="error_no_browser_installed">Erreur: Aucun Navigateur installé, installez un navigateur depuis le store</string>
     <string name="error_unknown">Error: Inconnue</string>
 
 
     <string name="amazon_url">www.amazon.fr</string>
+    <string name="google_url">www.google.fr</string>
 
 </resources> 

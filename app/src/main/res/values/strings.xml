@@ -9,11 +9,16 @@
     <string translatable="false" name="lilo_app_name">Lilo Web Search</string>
     <string translatable="false" name="ecosia_app_name">Ecosia Web Search</string>
     <string translatable="false" name="amazon_app_name">Amazon Web Search</string>
+    <string translatable="false" name="google_app_name">Google Web Search</string>
     <!-- IMPROVEMENT: Add lines here for new logo -->
 
     <!-- main screen -->
     <string name="str_mail_to" translatable="false">freeboub@gmail.com</string>
     <string name="mail_title" translatable="false">[WebShare] : feedback</string>
+
+    <string name="preference_title_social_network">Social networks</string>
+    <string name="preference_title_search_engine">Search engines</string>
+    <string name="preference_title_other">Other</string>
 
     <!-- configuration activty translations -->
     <string name="report_info">Send suggestions</string>
@@ -34,6 +39,7 @@
     <string name="customized_lilo_logo">Lilo logo</string>
     <string name="customized_ecosia_logo">Ecosia logo</string>
     <string name="customized_amazon_logo">Amazon logo</string>
+    <string name="customized_google_logo">Google logo</string>
 
     <!-- IMPROVEMENT: Add lines here for new logo -->
 
@@ -44,5 +50,6 @@
 
     <!-- Misc -->
     <string name="amazon_url">www.amazon.com</string>
+    <string name="google_url">www.google.com</string>
 
 </resources>

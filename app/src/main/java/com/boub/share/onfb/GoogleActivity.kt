@@ -13,6 +13,6 @@ import android.net.Uri
 
 class GoogleActivity : ShareActivity() {
     override fun getShareLink( originalRequest : String ): String {
-        return "https://search.lilo.org/searchweb.php?q=" + Uri.encode(originalRequest)
+        return "https://" + resources.getString( R.string.google_url ) + "/search?&q=" + Uri.encode(originalRequest)
     }
 }

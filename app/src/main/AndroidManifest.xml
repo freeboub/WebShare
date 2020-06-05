@@ -112,6 +112,19 @@
             </intent-filter>
         </activity>
 
+        <!--Google -->
+        <activity android:name=".GoogleActivity"
+                android:label="@string/google_app_name"
+                android:icon="@drawable/ic_launcher_google_search"
+                android:theme="@android:style/Theme.Translucent.NoTitleBar.Fullscreen"
+                android:enabled="false">
+            <intent-filter>
+                <action android:name="android.intent.action.SEND"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+                <data android:mimeType="text/*"/>
+            </intent-filter>
+        </activity>
+
         <!-- IMPROVEMENT: Add lines here for new share activity -->
 
     </application>
