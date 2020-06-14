@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="credit_linear_layout">
+        <attr name="credit_linear_layout_content_description" format="string" />
+        <attr name="credit_linear_layout_logo" format="reference" />
+        <attr name="credit_linear_layout_text" format="string" />
+    </declare-styleable>
+</resources>
