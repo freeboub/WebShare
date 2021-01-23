@@ -44,7 +44,7 @@ abstract class ShareActivity : Activity() {
         /// Parse intent
         if (intent.action == Intent.ACTION_SEND) {
             val strData = intent.getStringExtra(Intent.EXTRA_TEXT)
-            if (strData.isNotEmpty()) {
+            if (strData != null && strData.isNotEmpty()) {
                 /// Build new intent
                 val intentToSend = Intent(Intent.ACTION_VIEW)
                 val strLink = getShareLink(strData)
