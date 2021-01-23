@@ -10,6 +10,8 @@
     <string translatable="false" name="ecosia_app_name">Ecosia Web Search</string>
     <string translatable="false" name="amazon_app_name">Amazon Web Search</string>
     <string translatable="false" name="google_app_name">Google Web Search</string>
+    <string translatable="false" name="copy_to_clipboard_app_name">Copy to Clipboard</string>
+
     <!-- IMPROVEMENT: Add lines here for new logo -->
 
     <!-- main screen -->
@@ -40,6 +42,7 @@
     <string name="customized_ecosia_logo">Ecosia logo</string>
     <string name="customized_amazon_logo">Amazon logo</string>
     <string name="customized_google_logo">Google logo</string>
+    <string name="customized_copy_to_clipboard">Copy to clipboard logo</string>
 
     <!-- IMPROVEMENT: Add lines here for new logo -->
 
@@ -52,4 +55,9 @@
     <string name="amazon_url">www.amazon.com</string>
     <string name="google_url">www.google.com</string>
 
+    <!--
+    Toast message when text has been copied
+    All translation can be found in android cope: toast_text_copied : http://androidxref.com/9.0.0_r3/s?n=25&start=0&sort=relevancy&q=toast_text_copied&project=art%2Cbionic%2Cbootable%2Cbuild%2Ccompatibility%2Ccts%2Cdalvik%2Cdevelopers%2Cdevelopment%2Cdevice%2Cexternal%2Cframeworks%2Chardware%2Ckernel%2Clibcore%2Clibnativehelper%2Cpackages%2Cpdk%2Cplatform_testing%2Cprebuilts%2Csdk%2Csystem%2Ctest%2Ctoolchain%2Ctools -->
+    -->
+    <string name="copy_to_clipboard_text_copied">Text copied</string>
 </resources>

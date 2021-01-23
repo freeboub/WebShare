@@ -73,6 +73,12 @@
                     app:credit_linear_layout_text="Andreuvv \n CC BY-SA 4.0 \n https://commons.wikimedia.org/wiki/File:Pokémon_Water_Type_Icon.svg"
                     app:credit_linear_layout_logo="@drawable/ic_launcher_lilo"/>
 
+            <com.boub.share.onfb.CreditLinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    app:credit_linear_layout_text="J. Xavier Atero (for Bimetrical S.L.) \n CC BY-SA 4.0 \n https://commons.wikimedia.org/wiki/File:Bimetrical_icon_clipboard_black.svg"
+                    app:credit_linear_layout_logo="@drawable/ic_launcher_copy_to_clipboard"/>
+
             <!-- Reddit Logo
             <com.boub.share.onfb.CreditLinearLayout
                     android:layout_width="match_parent"

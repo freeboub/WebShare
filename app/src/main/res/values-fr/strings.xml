@@ -24,6 +24,7 @@
     <string name="customized_ecosia_logo">Logo Ecosia</string>
     <string name="customized_amazon_logo">Logo Amazon</string>
     <string name="customized_google_logo">Logo Google</string>
+    <string name="customized_copy_to_clipboard">Logo Copy to clipboard</string>
 
     <!-- messages d'erreur -->
     <string name="error_facebook_shortcut_invalid">Erreur: Facebook ne supporte que les liens web</string>
@@ -33,5 +34,6 @@
 
     <string name="amazon_url">www.amazon.fr</string>
     <string name="google_url">www.google.fr</string>
+    <string name="copy_to_clipboard_text_copied">Texte copié</string>
 
 </resources> 

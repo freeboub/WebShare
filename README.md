@@ -9,6 +9,7 @@ Current Implementation allows:
  * Social Networks (Facebook, Twitter, LinkedIn)
  * Web search (Lilo, Ecosia)
  * Marchand website (Amazon)
+ * Copy text to clipboard
 
 Why?
 ---------
