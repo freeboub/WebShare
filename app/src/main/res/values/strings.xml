@@ -11,6 +11,8 @@
     <string translatable="false" name="amazon_app_name">Amazon Web Search</string>
     <string translatable="false" name="google_app_name">Google Web Search</string>
     <string translatable="false" name="copy_to_clipboard_app_name">Copy to Clipboard</string>
+    <string translatable="false" name="youtube_download_mp3_app_name">Download mp3</string>>
+    <string translatable="false" name="youtube_download_mp4_app_name">Download video</string>>
 
     <!-- IMPROVEMENT: Add lines here for new logo -->
 
@@ -43,6 +45,7 @@
     <string name="customized_amazon_logo">Amazon logo</string>
     <string name="customized_google_logo">Google logo</string>
     <string name="customized_copy_to_clipboard">Copy to clipboard logo</string>
+    <string name="customized_youtube_logo">Youtube logo</string>
 
     <!-- IMPROVEMENT: Add lines here for new logo -->
 

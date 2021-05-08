@@ -79,6 +79,12 @@
                     app:credit_linear_layout_text="J. Xavier Atero (for Bimetrical S.L.) \n CC BY-SA 4.0 \n https://commons.wikimedia.org/wiki/File:Bimetrical_icon_clipboard_black.svg"
                     app:credit_linear_layout_logo="@drawable/ic_launcher_copy_to_clipboard"/>
 
+            <com.boub.share.onfb.CreditLinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    app:credit_linear_layout_text="Jarould \n CC BY-SA 4.0 \n https://commons.wikimedia.org/wiki/File:YouTube_social_white_circle_(pink).svg"
+                    app:credit_linear_layout_logo="@drawable/ic_launcher_youtube"/>
+
             <!-- Reddit Logo
             <com.boub.share.onfb.CreditLinearLayout
                     android:layout_width="match_parent"

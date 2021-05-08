@@ -25,6 +25,7 @@
     <string name="customized_amazon_logo">Logo Amazon</string>
     <string name="customized_google_logo">Logo Google</string>
     <string name="customized_copy_to_clipboard">Logo Copy to clipboard</string>
+    <string name="customized_youtube_logo">Logo Youtube</string>
 
     <!-- messages d'erreur -->
     <string name="error_facebook_shortcut_invalid">Erreur: Facebook ne supporte que les liens web</string>

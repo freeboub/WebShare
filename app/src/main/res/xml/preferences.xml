@@ -74,6 +74,24 @@
 
         </PreferenceCategory>
 
+        <PreferenceCategory
+                app:title="@string/preference_title_other">
+
+            <SwitchPreferenceCompat
+                    app:key="YoutubeMP3DownloadActivity"
+                    app:title="@string/youtube_download_mp3_app_name"
+                    app:icon="@drawable/ic_launcher_youtube"
+                    app:defaultValue="false"/>
+
+            <SwitchPreferenceCompat
+                    app:key="YoutubeMP4DownloadActivity"
+                    app:title="@string/youtube_download_mp4_app_name"
+                    app:icon="@drawable/ic_launcher_youtube"
+                    app:defaultValue="false"/>
+
+        </PreferenceCategory>
+
+
 
         <!-- IMPROVEMENT: Add lines here for new shortcut -->
 
