@@ -10,6 +10,7 @@ Current Implementation allows:
  * Web search (Lilo, Ecosia)
  * Marchand website (Amazon)
  * Copy text to clipboard
+ * Open youtube download web site
 
 Why?
 ---------
