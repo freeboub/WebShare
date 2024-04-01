@@ -9,13 +9,7 @@
 
 package com.boub.share.onfb
 
-import android.content.ClipData
-import android.content.ClipboardManager
-import android.content.Context
 import android.net.Uri
-import android.os.Build
-import android.widget.Toast
-
 
 class YoutubeMP3DownloadActivity : ShareActivity() {
     override fun getShareLink( originalRequest : String ): String {
