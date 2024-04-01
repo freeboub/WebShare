@@ -65,10 +65,10 @@ class MainActivity : AppCompatActivity() {
                 return if (enable) PackageManager.COMPONENT_ENABLED_STATE_ENABLED else PackageManager.COMPONENT_ENABLED_STATE_DISABLED
             }
 
-            val packagename = this.requireActivity().packageName
+            val packageName = this.requireActivity().packageName
 
             val component =
-                ComponentName(packagename, "$packagename.$activityName")
+                ComponentName(packageName, "$packageName.$activityName")
 
             this.activity?.packageManager?.setComponentEnabledSetting(
                 component,

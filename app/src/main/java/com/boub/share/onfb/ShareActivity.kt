@@ -24,7 +24,7 @@ abstract class ShareActivity : Activity() {
     private val _tag = "ShareActivity"
 
     enum class ShareResult {
-        // SUCESS
+        // SUCCESS
         Success,
 
         // Generic error
