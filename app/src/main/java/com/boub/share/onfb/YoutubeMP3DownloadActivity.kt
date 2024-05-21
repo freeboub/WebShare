@@ -9,10 +9,10 @@
 
 package com.boub.share.onfb
 
-import android.net.Uri
-
 class YoutubeMP3DownloadActivity : ShareActivity() {
     override fun getShareLink( originalRequest : String ): String {
-        return "https://yt1s.com/youtube-to-mp3?q=" + Uri.encode(originalRequest)
+        // https://savefrom.com.co/watch?v=CfxosQn1PRM
+        val urlEnd = originalRequest.split("/")[3]
+        return "https://savefrom.com.co/$urlEnd"
     }
 }
