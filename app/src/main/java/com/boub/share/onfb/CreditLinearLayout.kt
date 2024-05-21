@@ -9,13 +9,13 @@
 
 package com.boub.share.onfb
 
-import android.annotation.TargetApi
+import android.annotation.SuppressLint
 import android.content.Context
-import android.os.Build
 import android.util.AttributeSet
 import android.view.LayoutInflater
 import android.widget.LinearLayout
-import kotlinx.android.synthetic.main.credit_linear_layout.view.*
+import android.widget.TextView
+import androidx.appcompat.widget.AppCompatImageView
 
 class CreditLinearLayout : LinearLayout {
 
@@ -31,26 +31,22 @@ class CreditLinearLayout : LinearLayout {
         init( attrs )
     }
 
-    @TargetApi(Build.VERSION_CODES.LOLLIPOP)
-    constructor( context: Context, attrs: AttributeSet?, defStyleAttr: Int, defStyleRes: Int)
-            : super(context, attrs, defStyleAttr, defStyleRes)
-    {
-        init( attrs )
-    }
-
-    fun init( attrs: AttributeSet? )
+    @SuppressLint("CustomViewStyleable")
+    fun init(attrs: AttributeSet? )
     {
         LayoutInflater.from(context).inflate(R.layout.credit_linear_layout, this, true)
 
         attrs?.let {
             val typedArray = context.obtainStyledAttributes(attrs, R.styleable.credit_linear_layout, 0, 0)
+            val text: TextView = findViewById(R.id.text)
+            val image: AppCompatImageView = findViewById(R.id.image)
 
             if (typedArray.hasValue(R.styleable.credit_linear_layout_credit_linear_layout_text)) {
                 text.text = typedArray.getString(R.styleable.credit_linear_layout_credit_linear_layout_text)
             }
 
             if (typedArray.hasValue(R.styleable.credit_linear_layout_credit_linear_layout_logo)) {
-                var logo = typedArray.getResourceId(
+                val logo = typedArray.getResourceId(
                     R.styleable.credit_linear_layout_credit_linear_layout_logo,
                     -1
                 )

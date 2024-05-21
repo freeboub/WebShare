@@ -22,7 +22,7 @@ import androidx.preference.SwitchPreferenceCompat
 
 class MainActivity : AppCompatActivity() {
 
-    private val _tag = "MainActivity"
+    // private val _tag = "MainActivity"
 
     class MySettingsFragment : PreferenceFragmentCompat(), Preference.OnPreferenceChangeListener {
 
@@ -46,19 +46,20 @@ class MainActivity : AppCompatActivity() {
             btnShare?.onPreferenceClickListener = shareApp
 
             /// register generic enable buttons
-            val prefs = PreferenceManager.getDefaultSharedPreferences(this.context)
+            if (this.context != null) {
+                val prefs = PreferenceManager.getDefaultSharedPreferences(this.requireContext())
 
-            for ((strKey, _) in prefs.all ) {
-                val btnClickMe: SwitchPreferenceCompat? = this.findPreference(strKey)
-                btnClickMe?.onPreferenceChangeListener = this
+                for ((strKey, _) in prefs.all) {
+                    val btnClickMe: SwitchPreferenceCompat? = this.findPreference(strKey)
+                    btnClickMe?.onPreferenceChangeListener = this
+                }
             }
         }
 
-        override fun onPreferenceChange(preference: Preference?, newValue: Any?): Boolean {
-            setActivityEnable(preference?.key, newValue as Boolean)
+        override fun onPreferenceChange(preference: Preference, newValue: Any?): Boolean {
+            setActivityEnable(preference.key, newValue as Boolean)
             return true
         }
-
 
         private fun setActivityEnable(activityName: String?, enable: Boolean) {
             fun getEnableValue(enable: Boolean): Int {

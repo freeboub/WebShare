@@ -15,7 +15,6 @@ import android.net.Uri
 import android.os.Bundle
 import android.util.Log
 import android.util.Patterns
-import android.view.View
 import android.widget.TextView
 import java.util.regex.Matcher
 
@@ -44,7 +43,7 @@ abstract class ShareActivity : Activity() {
         /// Parse intent
         if (intent.action == Intent.ACTION_SEND) {
             val strData = intent.getStringExtra(Intent.EXTRA_TEXT)
-            if (strData != null && strData.isNotEmpty()) {
+            if (!strData.isNullOrEmpty()) {
                 /// Build new intent
                 val intentToSend = Intent(Intent.ACTION_VIEW)
                 val strLink = getShareLink(strData)
@@ -104,7 +103,4 @@ abstract class ShareActivity : Activity() {
     }
 
     abstract fun getShareLink(originalRequest: String): String
-
-    /// Handler to exit application in case of error
-    fun finish(view: View) { finish() }
 }

@@ -17,8 +17,8 @@ class RedditActivity : ShareActivity() {
 
     override fun getShareLink( originalRequest : String ): String {
         var result = "https://reddit.com/submit?"
-        val urlextracted = getUrlFromText(originalRequest)
-        result += if (urlextracted == originalRequest) {
+        val urlExtracted = getUrlFromText(originalRequest)
+        result += if (urlExtracted == originalRequest) {
             // This sharing is only an url
             "url=" + Uri.encode(originalRequest)
         } else {
