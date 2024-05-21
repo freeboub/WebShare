@@ -23,19 +23,14 @@
 
         <!-- licence -->
         <activity android:name=".LicenceActivity"
-            android:exported="true">
-            <intent-filter>
-                <action android:name="android.intent.action.MAIN" />
-
-                <category android:name="android.intent.category.DEFAULT" />
-                <category android:name="android.intent.category.LAUNCHER" />
-            </intent-filter>
+            android:exported="false">
         </activity>
 
         <!-- Here begins share activities-->
         <!-- Twitter -->
         <activity
             android:name=".TwitterActivity"
+            android:enabled="false"
             android:exported="true"
             android:icon="@drawable/ic_launcher_twitter"
             android:label="@string/twitter_app_name"
@@ -50,6 +45,7 @@
         <!-- Facebook -->
         <activity
             android:name=".FacebookActivity"
+            android:enabled="false"
             android:exported="true"
             android:icon="@drawable/ic_launcher_facebook"
             android:label="@string/facebook_app_name"
